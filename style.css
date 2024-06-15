@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+
+    background-color: #252525;
+    font-family: Nunito;
+    color: #77692a;
+
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
+    color: #77692a;
+    margin-top: 20px;
+
+}
+
+.top-text-republic {
+
+    letter-spacing: 10px;
+    margin-right: -10px;
+
+}
+
+.top-text-ukraine {
+
+    letter-spacing: 22.6px;
+
+}
+
+#ukraine {
+
+    width: 50%;
+
+}
+
+#ukraine:hover {
+
+    background-image: none;
+
+}
+
+.cls-1 {
+    fill: #2a3577;
+    stroke: #4051b6;
+    stroke-miterlimit: 10;
+    stroke-width: 1px;
+
+    transition: fill 0.5s;
+}
+
+.cls-1:hover {
+
+    fill: #252525;
+
+}
+
+.ukraine-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#herb {
+
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+
+.statistic {
+
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
